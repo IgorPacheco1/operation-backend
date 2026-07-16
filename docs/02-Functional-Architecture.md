@@ -209,11 +209,22 @@ Elas organizam sua aplicação prática.
 
 ## Tecnologias
 
-Representam todas as competências desenvolvidas durante a jornada.
+Tecnologias representam ferramentas, frameworks, linguagens e conceitos necessários para desenvolver Competências.
 
-Seu objetivo é permitir acompanhar o progresso individual de cada tecnologia.
+Exemplos:
 
-O módulo também servirá para identificar pontos fortes e pontos que precisam ser reforçados.
+- Java
+- Spring Boot
+- Maven
+- PostgreSQL
+- Docker
+- AWS
+
+Cada Tecnologia poderá contribuir para diversas Competências.
+
+Da mesma forma, uma Competência poderá utilizar diversas Tecnologias.
+
+Essa relação permite organizar o aprendizado de maneira mais intuitiva para usuários iniciantes.
 
 ---
 
