@@ -25,14 +25,22 @@ Todas as mudanças relevantes do projeto serão documentadas neste arquivo.
 
 ## Decisions
 
-ADR-001
+### ADR-001
 
 Competências e Tecnologias coexistem.
 
-Motivo:
+**Motivo**
 
 Competências representam aquilo que o usuário é capaz de construir.
 
 Tecnologias representam as ferramentas necessárias para desenvolver cada competência.
 
 Essa abordagem permite que usuários iniciantes tenham um caminho claro de aprendizado sem perder a visão prática da evolução.
+
+### ADR-002
+
+Todo desenvolvimento deverá seguir o fluxo:
+
+Pesquisa → Documento → Revisão → Aprovação → Versionamento → Próximo Documento.
+
+Nenhuma implementação será iniciada antes da aprovação da documentação correspondente.
