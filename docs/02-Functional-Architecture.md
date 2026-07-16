@@ -92,6 +92,18 @@ Cada módulo possui uma única responsabilidade.
 
 Os módulos cooperam entre si para construir a jornada completa do usuário.
 
+Objetivo
+
+↓
+
+Competências
+
+↓
+
+Tecnologias
+
+↓
+
 Roadmap
 
 ↓
@@ -100,15 +112,11 @@ Missões
 
 ↓
 
-Tecnologias
-
-↓
-
 Projetos
 
 ↓
 
-Diário de Bordo
+Diário
 
 ↓
 
