@@ -184,6 +184,29 @@ Exemplos incorretos:
 
 ---
 
+## Competências
+
+As Competências representam aquilo que o usuário deverá ser capaz de realizar ao concluir sua jornada de aprendizado.
+
+Uma Competência sempre será composta por uma ou mais Tecnologias.
+
+Exemplos:
+
+- Desenvolver APIs REST
+- Persistir Dados
+- Implementar Autenticação
+- Escrever Testes Automatizados
+- Containerizar Aplicações
+- Realizar Deploy
+
+As Competências representam o resultado esperado do aprendizado.
+
+Elas não substituem as Tecnologias.
+
+Elas organizam sua aplicação prática.
+
+---
+
 ## Tecnologias
 
 Representam todas as competências desenvolvidas durante a jornada.
