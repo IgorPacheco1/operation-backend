@@ -247,3 +247,19 @@ Integrações
 ↓
 
 Versão 1.0
+
+---
+
+# 11. Princípios Estratégicos
+
+O Operation Backend foi concebido para transformar um objetivo profissional em um plano de execução estruturado.
+
+Toda funcionalidade implementada deverá responder à seguinte pergunta:
+
+"Esta funcionalidade aproxima o usuário do objetivo final?"
+
+Caso a resposta seja negativa, sua implementação deverá ser reavaliada.
+
+O sistema não foi desenvolvido para organizar tarefas.
+
+Ele foi desenvolvido para organizar a evolução profissional.
