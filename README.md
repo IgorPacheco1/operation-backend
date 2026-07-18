@@ -65,9 +65,6 @@ O projeto está dividido em três grandes áreas.
     ├── Inglês
     ├── Diário de Bordo
     └── Estatísticas
-
-📁 Projeto Prático
-    └── Easy Finance
 ```
 
 ---
