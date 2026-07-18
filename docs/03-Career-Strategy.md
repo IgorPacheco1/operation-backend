@@ -3,10 +3,10 @@
 | Informação | Valor |
 |------------|-------|
 | **Versão** | 1.0 Alpha |
-| **Status** | In Progress |
+| **Status** | Approved |
 | **Projeto** | Operation Backend |
 | **Responsável** | Igor Pacheco |
-| **Última atualização** | 16/07/2026 |
+| **Última atualização** | 18/07/2026 |
 
 ## Documentos Relacionados
 
