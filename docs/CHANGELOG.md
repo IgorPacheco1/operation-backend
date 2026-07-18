@@ -12,26 +12,25 @@ Todas as mudanças relevantes do projeto serão documentadas neste arquivo.
 - Introdução da camada de Estratégia na arquitetura da documentação.
 - Introdução do conceito de Competências.
 - Separação entre Competências e Tecnologias.
-- Definição da arquitetura em camadas (Estratégia → Arquitetura → Modelagem → Implementação).
+- Definição da arquitetura em camadas.
 - Definição do fluxo Objetivo → Competências → Tecnologias → Roadmap → Missões → Projetos.
 - Padronização do cabeçalho para todos os documentos.
-- Definição do fluxo oficial de desenvolvimento do projeto.
+- Criação da Matriz de Competências como elemento central da estratégia.
 
 ## Changed
 
-- O objetivo principal do Operation Backend passa a ser preparar o usuário para conquistar o estágio em Desenvolvimento Backend no Banco Inter.
-- O Roadmap deixa de representar apenas tecnologias e passa a representar uma estratégia de evolução profissional.
-- O Dashboard passa a representar evolução por competências.
-- Missões passam a desenvolver competências.
-- Tecnologias passam a servir como ferramentas para desenvolver competências.
-- A documentação passa a seguir uma abordagem enxuta, focada exclusivamente no que agrega valor à implementação do sistema.
+- O objetivo principal do Operation Backend passa a ser preparar o usuário para conquistar um estágio em Desenvolvimento Backend no Banco Inter.
+- O Roadmap deixa de representar apenas tecnologias e passa a representar uma estratégia completa de evolução profissional.
+- O Dashboard passa a acompanhar a evolução por Competências.
+- Missões passam a desenvolver Competências.
+- Tecnologias passam a servir como ferramentas para desenvolver Competências.
+- A documentação passa a seguir uma abordagem enxuta, focada apenas no que agrega valor à implementação do Notion.
 
 ## Removed
 
-- Removido do escopo da versão 1.0:
-  - Documentation Roadmap
-  - Glossary
-  - Documentações auxiliares que não contribuem diretamente para a implementação do Notion.
+- Documentation Roadmap removido do escopo da versão 1.0.
+- Glossary removido do escopo da versão 1.0.
+- Documentações auxiliares removidas para acelerar a implementação.
 
 ## Decisions
 
@@ -43,7 +42,7 @@ Competências e Tecnologias coexistem.
 
 Competências representam aquilo que o usuário é capaz de construir.
 
-Tecnologias representam as ferramentas necessárias para desenvolver cada competência.
+Tecnologias representam as ferramentas necessárias para desenvolver essas competências.
 
 Essa abordagem permite que usuários iniciantes tenham um caminho claro de aprendizado sem perder a visão prática da evolução.
 
@@ -79,10 +78,6 @@ Versionamento
 
 Próximo Documento
 
-**Motivo**
-
-Garantir que todas as decisões sejam fundamentadas antes da implementação.
-
 ---
 
 ### ADR-003
@@ -93,16 +88,26 @@ Documentação enxuta.
 
 A documentação deve existir para acelerar a implementação.
 
-Qualquer documento que não agregue valor direto ao desenvolvimento da versão atual ficará fora do escopo da Sprint 0.
-
 ---
 
 ### ADR-004
 
-O Operation Backend será desenvolvido inicialmente para um único usuário.
+O sistema será desenvolvido inicialmente para um único usuário.
 
 **Motivo**
 
-Toda decisão arquitetural será otimizada para a preparação do Igor para o estágio em Desenvolvimento Backend no Banco Inter.
+Toda decisão será otimizada para preparar o usuário para conquistar um estágio no Banco Inter.
 
-A generalização do sistema para múltiplos usuários será considerada apenas em versões futuras.
+---
+
+### ADR-005
+
+Architecture Freeze v1.0
+
+**Motivo**
+
+Após a conclusão do Career Strategy, a arquitetura do Operation Backend é considerada congelada.
+
+A partir desta decisão não serão adicionados novos módulos, novos fluxos ou mudanças estruturais.
+
+O foco passa a ser exclusivamente concluir a documentação e implementar o sistema.
