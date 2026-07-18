@@ -488,39 +488,22 @@ O Dashboard acompanhará automaticamente:
 
 ---
 
-# 14. Relação com os Demais Documentos
+# 14. Matriz de Competências
 
-Este documento é a base estratégica do Operation Backend.
+A Matriz de Competências estabelece a relação entre Competências, Tecnologias, Projetos, Evidências e Certificações.
 
-Sua influência sobre os demais documentos ocorre da seguinte forma:
+Ela será utilizada como base para a construção do Roadmap, Dashboard e Databases do Operation Backend.
 
-Career Strategy
-
-↓
-
-Technical Architecture
-
-↓
-
-Database Model
-
-↓
-
-Dashboard
-
-↓
-
-Roadmap
-
-↓
-
-Planner
-
-↓
-
-Notion Implementation
-
-Toda alteração realizada neste documento poderá impactar diretamente toda a arquitetura do sistema.
+| Competência | Tecnologias | Projeto | Evidência | Certificação |
+|-------------|-------------|----------|-----------|--------------|
+| Desenvolver APIs REST | Java, Spring Boot, REST | Easy Finance | API funcional + README | — |
+| Persistir Dados | SQL, PostgreSQL, JPA | Easy Finance | CRUD completo | — |
+| Implementar Autenticação | Spring Security, JWT | API Login | Login funcional | — |
+| Escrever Testes | JUnit, Mockito | Easy Finance | Testes automatizados | — |
+| Containerizar Aplicações | Docker | Easy Finance | Dockerfile + Compose | — |
+| Realizar Deploy | Railway, AWS | Easy Finance | Aplicação publicada | AWS Cloud Practitioner (futuro) |
+| Versionar Software | Git, GitHub | Todos os projetos | Histórico de commits | GitHub Foundations |
+| Documentar Software | Markdown, Swagger | Todos os projetos | README profissional | — |
 
 ---
 
@@ -528,10 +511,6 @@ Toda alteração realizada neste documento poderá impactar diretamente toda a a
 
 O Career Strategy representa a principal referência estratégica do Operation Backend.
 
-Seu objetivo não é apenas organizar estudos.
+Todos os demais documentos deverão utilizar esta estratégia como fonte única de verdade.
 
-Seu objetivo é definir um caminho claro, mensurável e eficiente para transformar aprendizado em competência, competência em projetos e projetos em oportunidades profissionais.
-
-Todo o sistema deverá existir para aproximar o usuário do objetivo final:
-
-**Conquistar uma vaga de Estágio em Desenvolvimento Backend no Banco Inter.**
+Qualquer alteração futura na estratégia deverá ser refletida nos demais documentos apenas após uma nova revisão arquitetural.
